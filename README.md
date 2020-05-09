@@ -1,6 +1,7 @@
 # My Portfolio
 
 Built using Pug and Express. Icons are from DEVICON.
+Note that some parts are still a work in progress.
 
 # How does it work?
 
