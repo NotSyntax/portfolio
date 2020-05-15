@@ -20,3 +20,15 @@ var _0x3a80 = function (_0x2fd965, _0x5c98c0) {
 };
 console['log'](_0x3a80('0x3'), _0x3a80('0x0'));
 console[_0x3a80('0x1')](_0x3a80('0x2'), _0x3a80('0x4'));
+
+
+window.addEventListener("load", () => {
+  document.getElementsByTagName("body")[0].classList.remove("preload");
+});
+
+let hatchverse = "https://hatchverse.xyz/"
+let giftbot = "https://github.com/notsyntax/giftbot"
+let sandgate = "https://github.com/notsyntax/sandgate"
+let styxfolio = "https://github.com/notsyntax/portfolio"
+let discordly = "https://github.com/discordly/discordly"
+let dynosaur = "https://dynosaur.glitch.me"
