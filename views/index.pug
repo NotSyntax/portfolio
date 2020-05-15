@@ -3,6 +3,9 @@ doctype html
 head
   meta(charset='utf-8')
   title About Me
+  
+  // Exists was here
+  
   link(rel='stylesheet' href='https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css')
   meta(http-equiv='X-UA-Compatible' content='IE=edge')
   meta(name='viewport' content='width=device-width, initial-scale=1')
@@ -21,24 +24,52 @@ head
   meta(name='theme-color' content='#ffd119')
   link(rel='stylesheet' href='/style.css')
   script(src='/script.js' defer='')
-header.welcome
-  .welcome-text
-    h1
-      | I&apos;M 
-      span.name UROMASTYX
-      | !
-    p
-      | I&apos;m also a full stack Javascript developer 
-      br
-      | that enjoys learning new programming languages.
-section.about
-  section.languages
-    div
-      i.devicon-html5-plain.icon
-      h1=html
-    div.js
-      i.devicon-javascript-plain.icon
-      h1=javascript
-    div
-      i.devicon-java-plain.icon
-      h1=java
+body.preload
+  header.welcome
+    .welcome-text
+      h1
+        | I&apos;M 
+        span.name UROMASTYX
+        | !
+      p
+        | I&apos;m also a full stack Javascript developer 
+        br
+        | that enjoys learning new programming languages.
+  section.about
+    section.languages
+      div
+        i.devicon-html5-plain.icon
+        h1=html
+      div.js
+        i.devicon-javascript-plain.icon
+        h1=javascript
+      div
+        i.devicon-java-plain.icon
+        h1=java
+    section.projects
+      h1
+        span Projects
+      div.purple.projectbox
+        div.overlay
+          button(onclick="window.open(hatchverse)") VISIT
+        img(src="https://cdn.glitch.com/ff25bc95-c565-4930-97e2-47d53f541699%2F68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3330323539393635323837303731373436302f3539333938393235353433373631353131362f486174636876657273655f446573632e706e67.png?v=1589497314012").projecticon
+      div.red.projectbox
+        div.overlay
+          button(onclick="window.open(giftbot)") VISIT
+        img(src="https://cdn.glitch.com/ff25bc95-c565-4930-97e2-47d53f541699%2Fgiftbot.png?v=1589500886037").projecticon
+      div.yellow.projectbox
+        div.overlay
+          button(onclick="window.open(styxfolio)") VISIT
+        img(src="https://cdn.glitch.com/ff25bc95-c565-4930-97e2-47d53f541699%2Fstyxfolio.png?v=1589498020989").projecticon
+      div.sand.projectbox
+        div.overlay
+          button(onclick="window.open(sandgate)") VISIT
+        img(src="https://cdn.glitch.com/ff25bc95-c565-4930-97e2-47d53f541699%2FUntitled.png?v=1589497233908").projecticon
+      div.green.projectbox
+        div.overlay
+          button(onclick="window.open(discordly)") VISIT
+        img(src="https://cdn.glitch.com/ff25bc95-c565-4930-97e2-47d53f541699%2Fdiscordly.png?v=1589576829160").projecticon
+      div.blue.projectbox
+        div.overlay
+          button(onclick="window.open(dynosaur)") VISIT
+        img(src="https://cdn.glitch.com/ff25bc95-c565-4930-97e2-47d53f541699%2Fdynosaur.png?v=1589577360482").projecticon
